@@ -72,9 +72,9 @@ def check_task(browser: XuexiChrome):
                   table_row[3],
                   table_row[4],
                   table_row[5],
-                  table_row[6],
-                  table_row[7] + '分',
-                  table_row[8] + '分')
+                  '0',
+                  table_row[6] + '分',
+                  table_row[7] + '分')
     print(table)
 
     if settings['浏览文章'] == "true" and scores[1].text != '12分/12分':
